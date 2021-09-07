@@ -3,6 +3,7 @@
 Person Details Information
 
 This REST API application is built using Spring Boot.
+To run this application, simply import this project and Run as a "SpringBootApplication".
 
 # Endpoints:
 
