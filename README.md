@@ -46,3 +46,13 @@ Technologies Used:
 1) Spring Boot, REST API has been used to create this application.
 2) I have also used the H2 in-memory DB (persistence layer) for the application.
 3) Testing is done using Mockito.
+
+# Build
+For building the project, please use "mvn clean install"
+
+# Run
+To run the application use the following command: "mvn spring-boot:run"
+
+You can use "Postman" to access various endpoints.
+# DB: 
+You can access the in-memory H2 DB using the following link: http://localhost:8080/h2-console/ with username and password used in the application.properties file.
