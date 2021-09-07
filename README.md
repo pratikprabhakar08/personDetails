@@ -14,6 +14,7 @@ To run this application, simply import this project and Run as a "SpringBootAppl
 4) DELETE: /api/v1/person/{id}: To delete a person with their 'id'
 
 # Sample Request for Creating a Person:
+```
 {
     "firstName": "Pratik",
     "lastName": "Prabhakar",
@@ -24,6 +25,7 @@ To run this application, simply import this project and Run as a "SpringBootAppl
         "postalCode": "125466"
     }
 }
+```
 
 #Address: 
 1) GET: /api/v1/address/{id}: To fetch an address details saved in the DB
@@ -31,12 +33,14 @@ To run this application, simply import this project and Run as a "SpringBootAppl
 3) PUT: /api/v1/address/{id}: To update an address with their 'id'
 
 # Sample Request for Creating a Person:
+```
 {
     "street": "Primrose Gate",
     "city": "Ranchi",
     "state": "Kildare",
     "postalCode": "7878484"
 }
+```
 
 Technologies Used:
 1) Spring Boot, REST API has been used to create this application.
